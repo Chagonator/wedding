@@ -308,7 +308,7 @@ footer{
 /*INICIO palabras*/
 .palabras-section{
     padding: 40px 0 40px;
-    background-image: url(/img/bg/fondo-floral-verde-1.jpg);
+    background-image: url(img/bg/fondo-floral-verde-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
