@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Demo 01</title>
+    <!--Font awesome css-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <!--Main Css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Responsive Css-->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- aos library cdn link  -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--header start-->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="logo">
+                    <a href="index.html">A & C</a>
+                </div>
+                <div class="hamburger-btn">
+                    <span></span>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a data-scroll-nav="0" href="#" class="active">Inicio</a></li>
+                        <li><a data-scroll-nav="3" href="#">Eventos</a></li>
+                        <li><a data-scroll-nav="4" href="#">Itinerario</a></li>
+                        <li><a data-scroll-nav="7" href="#">Codigo de vestimenta</a></li>
+                        <li><a data-scroll-nav="8" href="#">Mesa de regalos</a></li>
+                        <li><a data-scroll-nav="9" href="#">RSVP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+
+    <!--Home Section Start-->
+    <section class="home-section" data-scroll-index="0">
+        <!--Slider start-->
+        <div class="slide active" style="background-image: url('img/slides/slide-1.jpg')">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-content" data-aos="fade-down">
+                        <p>!Nos casamos¡</p>
+                        <h1>Alejandra & Carlos</h1>
+                        <span>23 de abril del 2025</span>
+                    </div>
+                    <div class="ct">
+                        <h1 id="headline"></h1>
+                        <div id="countdown">
+                      <ul>
+                      <li><span id="days"></span> Dias</li>
+                      <li><span id="hours"></span> Horas</li>
+                      <li><span id="minutes"></span> Minutos</li>
+                      <li><span id="seconds"></span> Segundos</li>
+                      </ul>
+                       </div>
+                      <div id="content" class="emoji">
+                        <span>Ven a festejar con nosotros!</span>
+                      </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <!--Slider end-->
+    </section>
+    <!--Home Section End-->
+
+
+<!--Inicia palabras-->
+<section class="palabras-section bgpalabras">
+    <div class="container">
+        <div class="row">
+            <div class="palabras-container" data-aos="fade-up">
+                "Queremos que seas parte de este momento tan especial para nosotros; por lo que hemos revervado para ti 4 lugares"
+            </div>
+        </div>
+    </div>
+</section>
+<!--termina palabras-->
+
+<!--Event section start-->
+<div class="event-section" data-scroll-index="3">
+    <div class="section-title">
+        <h2>Eventos</h2>
+        <p class="tp">La boda será un evento elegante y emocional que celebra
+             su amor y compromiso. Estará lleno de momentos
+              especiales, desde la ceremonia hasta la recepción 
+              y todos los detalles cuidadosamente planificados. 
+              Será un día que todos los presentes recordarán con
+               cariño y alegría.</p>
+    </div>
+    <div class="products-container">       
+        <div class="product" data-name="p-1" data-aos="fade-up">
+            <h3>Ceremonia</h3>
+            <img src="img/evento_11.jpg" alt="">
+            <h3>Catedral de Mazatlán</h3>
+            <div class="parr">Sabado 23 Abril 2025<br>04:00 PM</div>
+			<button class="vm">Ver mapa</button>
+       </div>
+       <div class="product" data-name="p-2" data-aos="fade-up">
+			<h3>Recepción</h3>
+       		<img src="img/evento_10.jpg" alt="">
+       		<h3>Salon Marina el Cid</h3>
+       	 	<div class="parr">Sabado 23 abrl 2025<br>08:00 PM</div>
+       	 	<button class="vm">Ver mapa</button>
+       </div> 
+    </div>
+ </div> 
+ <div class="products-preview"> 
+    <div class="preview" data-target="p-1">
+       <i class="fas fa-times"></i>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2180.5084679193906!2d-106.42224638213735!3d23.200711093311543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f5396ca42a37d%3A0x2f8ff32260240b3a!2sCatedral%20-%20Bas%C3%ADlica%20de%20la%20Inmaculada%20Concepci%C3%B3n!5e0!3m2!1ses-419!2smx!4v1699061272124!5m2!1ses-419!2smx" align = "middle" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <h3>Ceremonia: Catedral de Mazatlán</h3>
+    </div> 
+    <div class="preview" data-target="p-2">
+        <i class="fas fa-times"></i>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2180.5084679193906!2d-106.42224638213735!3d23.200711093311543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f5396ca42a37d%3A0x2f8ff32260240b3a!2sCatedral%20-%20Bas%C3%ADlica%20de%20la%20Inmaculada%20Concepci%C3%B3n!5e0!3m2!1ses-419!2smx!4v1699061272124!5m2!1ses-419!2smx" align = "middle" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>Recepción: Salon Marina el Cid</h3>
+     </div>   
+ </div>
+<!--Event section end-->
+
+
+<!--itinerario section start-->
+<section class="itinerario-section" data-scroll-index="4">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>itinerario</h2>
+                <p class="tp">Cuando te das cuenta de que quieres pasar el resto de tu vida
+                 con alguien, deseas que el resto de tu vida empiece cuanto antes.
+                 <br><br>(Cuando Harry encontró a Sally)</p>
+            </div>
+        </div>
+        <div class="itinerario-content">
+            <div class="row">
+                <!--itinerario item start-->
+                <div class="itinerario-item">
+                    <i class="fas fa-heart" data-aos="fade-down"></i>
+                    <div class="itinerario-text" data-aos="fade-up">
+                        <h3>Ceremonia</h3>
+                        <span class="date">Catedral de Mazatlán</span>
+                        <p>16:00</p>
+                    </div>
+                    <div class="itinerario-img" data-aos="fade-up">
+                        <img src="img/icons/iglesia.png" alt="imagen de iglesia">
+                    </div>
+                </div>
+                <!--itinerario item end-->
+
+                <!--itinerario item start-->
+                <div class="itinerario-item">
+                    <i class="fas fa-heart" data-aos="fade-down"></i>
+                    <div class="itinerario-text" data-aos="fade-up">
+                        <h3>Recepción</h3>
+                        <span class="date">Marina el Cid</span>
+                        <p>19:00</p>
+                    </div>
+                    <div class="itinerario-img" data-aos="fade-up">
+                        <img src="img/icons/anillos.png" alt="imagen de local">
+                    </div>
+                </div>
+                <!--itinerario item end-->
+                <!--itinerario item start-->
+                <div class="itinerario-item">
+                    <i class="fas fa-heart" data-aos="fade-down"></i>
+                    <div class="itinerario-text" data-aos="fade-up">
+                        <h3>Brindis</h3>
+                        <span class="date">Marina el cid</span>
+                        <p>20:00</p>
+                    </div>
+                    <div class="itinerario-img" data-aos="fade-up">
+                        <img src="img/icons/copas.png" alt="imagen de brindis">
+                    </div>
+                </div>
+                <!--itinerario item end-->
+                <!--itinerario item start-->
+                <div class="itinerario-item">
+                    <i class="fas fa-heart" data-aos="fade-down"></i>
+                    <div class="itinerario-text" data-aos="fade-up">
+                        <h3>Cena</h3>
+                        <span class="date">Marina el cid</span>
+                        <p>21:00</p>
+                    </div>
+                    <div class="itinerario-img" data-aos="fade-up">
+                        <img src="img/icons/cena.png" alt="imagen de cena">
+                    </div>
+                </div>
+                <!--itinerario item end-->
+            </div>
+        </div>
+    </div>
+</section>
+<!--itinerario section end-->
+
+<!---- Inicia Codigo de vestimenta ----->
+<section class="dresscode-section" data-scroll-index="7">
+
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Codigo de Vestimenta</h2>
+                <p>Riguroso vestimenta formal</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="dresscode">
+                <img src="img/vestido.png" alt="happy couple" srcset="" data-aos="fade-up">
+            </div>
+            <div class="dresscode">
+                <img src="img/traje.png" alt="happy couple" srcset=""  data-aos="fade-up">
+            </div>            
+        </div>
+    </div>
+    <h4>"no niños gracias por su comprensión"</h4>
+</section>
+<!---- Termina Codigo de vestimenta ----->
+
+
+
+<!---- Inicia Mesa de regalos ----->
+<section class="mesa-section" data-scroll-index="8">
+    <div class="container bg5">
+        <div class="row">
+            <div class="section-title">
+                <h4>Tu presencia es el mejor regalo para nosotros, pero si tu deseo es darnos un obsequio; te compartimos las sguientes opciones</h4>
+                <h2>Mesa de regalo</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mesa" data-aos="fade-up">
+                <img src="img/mregalo/liverpool.png" alt="liverpool" srcset="">
+                <h1>123456789</h1>
+            </div>
+            <div class="mesac" data-aos="fade-up">
+                <img src="img/mregalo/sobre.png" alt="sobre" srcset="">
+                <h1>1111 2222 3333 4444</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!---- Termina Mesa de regalos ----->
+
+
+<!--Hashtag-->
+<section class="hashtag-section">
+    <div class="container">
+        <div class="row">
+            <div class="hashtag-container" data-aos="fade-up">
+                <h1>Comparte las fotos en las redes sociales de la boda utilizando el hashtag</h1>
+                <p>#Alejandra&carlos</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Hashtag-->
+
+
+<!-- confirmar whatsapp -->
+<section class="rsvp-section" data-scroll-index="9">
+    <div class="container">
+        <div class="row">
+            <div class="section-title"  data-aos="fade-down">
+                <h2>Te esperamos</h2>
+                <p>Por favor, háganos saber si podrá asistir<br>antes del 23 de abril 2025</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="rsvp-form"  data-aos="fade-up">
+                <button class="btn_whatsapp" id="confirm-btn">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fin confirmar por whatsapp -->
+
+
+
+<!------- Inicia Footer -------->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-content">
+                <div class="couple-name">
+                    <img src="img/marco_letras.png" alt="Wedding Couple">
+                </div>
+                <p>Gracias</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!------- Termina Footer -------->
+
+
+
+<!--------- Inicia POPUP ---------->
+<div  class="audio-player btn-flotante">
+    <audio id="myAudio" playsinline loop>
+        <source src="audio/Khalid_Better_Violin.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML.
+    </audio>
+    <div class="controls">
+      <button class="player-button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
+             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+        </svg>
+       </button>
+    </div>
+</div>
+ <!-- POPUP -->
+ <div class="bpop">
+ <div class="popup">
+    <div class="contentPopup">
+        <div class="imgBx">
+            <img src="img/audio-play.png" alt="">
+        </div>
+        <div class="content">
+           <div>
+            <p>!Mejora la experiancia de esta invitación con audio.</p>
+              <a href="#" class="closep1" onclick="playAudio()">Con audio</a>
+              <a href="#" class="closep2">Sin audio</a>
+           </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-------- Termina POPUP ---------->
+
+
+
+<!------- Inicia Copyright -------->
+<p class="copyright-text">copyright &copy; 2024 santigogm.mx</p>
+<!------- Termina Copyright -------->
+
+<script>
+function openWhatsApp() {
+    const phoneNumber = '6691752536';
+    const url = `https://api.whatsapp.com/send?phone=5216691752536&text=Hola!%20quiero,%20cotizar%20una%20invitación%20digital.`;
+    window.open(url, '_blank');
+   }
+   document.getElementById('confirm-btn').addEventListener('click', openWhatsApp);
+</script>
+
+
+<!--Jquery-->
+<script src="js/jquery.min.js"></script>
+<!--Scroolit-->
+<script src="js/scrollIt.min.js"></script>
+<!--Main-->
+<script src="js/main.js"></script>
+<!--aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration: 1500
+});
+</script>
+
+</body>
+
+</html>
